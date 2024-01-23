@@ -34,7 +34,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/stores/productSore.js"  ],
   "exclude": [
     "node_modules"
   ]

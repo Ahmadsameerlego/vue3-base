@@ -6,6 +6,11 @@
   <router-view/>
 </template>
 
+<script setup>
+  import {useProductStore} from '@/stores/productSore';
+  useProductStore();
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
